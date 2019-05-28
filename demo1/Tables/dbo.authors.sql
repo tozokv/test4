@@ -13,6 +13,7 @@ CREATE TABLE [dbo].[authors] (
 		[zip]          [char](5) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[contract]     [bit] NOT NULL,
 		[10]           [int] NULL,
+		[1]            [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		CONSTRAINT [UPKCL_auidind]
 		PRIMARY KEY
 		CLUSTERED
