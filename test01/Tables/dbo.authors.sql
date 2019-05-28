@@ -14,6 +14,9 @@ CREATE TABLE [dbo].[authors] (
 		[contract]     [bit] NOT NULL,
 		[u]            [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[gfasd]        [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[wer]          [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[wertrhyu]     [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[sdg]          [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		CONSTRAINT [UPKCL_auidind]
 		PRIMARY KEY
 		CLUSTERED
